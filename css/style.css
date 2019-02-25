@@ -89,13 +89,16 @@ img {
 /* hex-container styles */
 .hex-container {
     padding-top: 82px;
-    padding-bottom: 90px;
+    padding-bottom: 80px;
 }
 
 .hex {
-    width: 178px;
-    height: 206px;
-    margin: 8px;
+    width: 180px;
+    height: 208px;
+    margin-bottom: 9px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -175,7 +178,6 @@ img {
 .row-static,
 .row-translate {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -185,7 +187,7 @@ img {
 }
 
 .row-static:last-of-type {
-    margin-top: -105px;
+    margin-top: -112px;
 }
 
 /* about styles */
