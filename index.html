@@ -15,6 +15,7 @@
   </head>
   <body>
     <header class="page-header">
+      <h1 class="visually-hidden">Сайт с шестиугольными монстрами</h1>
       <nav class="main-nav container">
         <ul class="nav-list">
           <li class="nav-item">
@@ -34,7 +35,6 @@
     </header>
     <main class="page-main">
       <section class="hex-container">
-        <h1 class="visually-hidden">Сайт с шестиугольными монстрами</h1>
         <div class="row-static">
           <div class="hex">
             <div class="hex-layer-1">
@@ -106,7 +106,16 @@
             </div>
           </div>
         </div>
+        <ul class="hex-navigation">
+          <li class="bullets"></li>
+          <li class="bullets"></li>
+          <li class="bullets selected"></li>
+          <li class="bullets"></li>
+          <li class="bullets"></li>
+          <li class="bullets"></li>
+        </ul>
       </section>
+
       <section class="about">
         <div class="about-wrapper">
           <h2 class="about-title">Smith Anderson <span>Illustrator & Character Designer</span></h2>
@@ -118,17 +127,17 @@
           </div>
           <ul class="about-social">
             <li class="social-item">
-              <a href="#" class="social-link social-fb">
+              <a href="https://facebook.com" class="social-link social-fb" target="_blank">
                 <span class="visually-hidden">Facebook</span>
               </a>
             </li>
             <li class="social-item">
-              <a href="#" class="social-link social-tw">
+              <a href="https://twitter.com" class="social-link social-tw" target="_blank">
                 <span class="visually-hidden">Twitter</span>
               </a>
             </li>
             <li class="social-item">
-              <a href="#" class="social-link social-google">
+              <a href="https://www.google.com" class="social-link social-google" target="_blank">
                 <span class="visually-hidden">Google</span>
               </a>
             </li>
@@ -168,26 +177,31 @@
               <label class="visually-hidden" for="pass">Введите ваш пароль:</label>
               <input type="password" name="password" id="pass" placeholder="Subject">
             </p>
-            <textarea class="form-group" name="comment" id="comment" rows="10">Write your message here...</textarea>
+            <textarea class="form-group" name="comment" id="comment" rows="8">Write your message here...</textarea>
             <button class="form-btn" type="submit">Send</button>
           </form>
           <div class="form-desc">
-            <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.
+            <p class="form-text">
+              <strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.
+            </p>
             <ul class="contact-list">
               <li class="contact-item contact-item-address">
                 Elm St. 14/05 Lost City
               </li>
               <li class="contact-item contact-item-tel">
-                + 3528 331 86 35
+                <a href="tel:+35283318635">+ 3528 331 86 35</a>
               </li>
               <li class="contact-item contact-item-mail">
-                info@hexalcorp.com
+                <a href="mailto:info@hexalcorp.com">info@hexalcorp.com</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
+    <div class="copyright">
+      <p>&copy; Copyright 2013 by PSDchat</p>
+    </div>
 
   </body>
 </html>
